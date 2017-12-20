@@ -14,3 +14,8 @@ function destructivelyRemoveLastKitten() {
   kittens.pop()
   return kittens
 }
+
+function destructivelyRemoveFirstKitten() {
+  array = array.slice(1)
+  return array
+}
